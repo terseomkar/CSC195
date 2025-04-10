@@ -6,6 +6,24 @@
 int main()
 {
     std::cout << "Data Types Program\n";
+
+    std::cout << "Size of int: " << sizeof(int) << std::endl;
+    std::cout << "Size of int: " << sizeof(bool) << std::endl;
+
+    // Data type conversion
+
+    //implicit conversion - target data type has the capacity to store the original value
+    int i = 5;
+    float iflt = i;
+    double idbl = iflt;
+
+    //explicit conversion - explicitly inform the compiler that "I want to do this conversion"
+    double jdbl = 32.2343252352362623226;
+    float jflt = (float)jdbl;   //Traditional C++ way
+
+    jflt = static_cast<float>(jdbl);    //Modern C++ way
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
