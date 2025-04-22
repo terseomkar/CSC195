@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Memory", "Memory\Memory.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Containers", "Containers\Containers.vcxproj", "{8A3C4F53-0B4D-47A1-859C-47F623FF84F0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP", "OOP\OOP.vcxproj", "{CC66D981-340B-4C77-82D9-7C24A541E120}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{8A3C4F53-0B4D-47A1-859C-47F623FF84F0}.Release|x64.Build.0 = Release|x64
 		{8A3C4F53-0B4D-47A1-859C-47F623FF84F0}.Release|x86.ActiveCfg = Release|Win32
 		{8A3C4F53-0B4D-47A1-859C-47F623FF84F0}.Release|x86.Build.0 = Release|Win32
+		{CC66D981-340B-4C77-82D9-7C24A541E120}.Debug|x64.ActiveCfg = Debug|x64
+		{CC66D981-340B-4C77-82D9-7C24A541E120}.Debug|x64.Build.0 = Debug|x64
+		{CC66D981-340B-4C77-82D9-7C24A541E120}.Debug|x86.ActiveCfg = Debug|Win32
+		{CC66D981-340B-4C77-82D9-7C24A541E120}.Debug|x86.Build.0 = Debug|Win32
+		{CC66D981-340B-4C77-82D9-7C24A541E120}.Release|x64.ActiveCfg = Release|x64
+		{CC66D981-340B-4C77-82D9-7C24A541E120}.Release|x64.Build.0 = Release|x64
+		{CC66D981-340B-4C77-82D9-7C24A541E120}.Release|x86.ActiveCfg = Release|Win32
+		{CC66D981-340B-4C77-82D9-7C24A541E120}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

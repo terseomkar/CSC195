@@ -25,6 +25,8 @@ int main()
         cout << numbers[i] << endl;
     }
 
+    cout << numbers.size() << endl;
+
     cout << "-----------------------------------------------" << endl;
 
     // Pointer Arithmetic
@@ -35,11 +37,34 @@ int main()
     cout << chemicals << endl;  //returns address of first element in the array
     cout << &chemicals[0] << endl;
 
+    int numb[2] = { 1,2 };
+    cout << numb << endl;
+    cout << sizeof(numb) << endl;
+    cout << (*chemicals).size() << endl;
+
+
+
+    cout << "-----------------------------------------------" << endl;
     cout << "-----------------------------------------------" << endl;
 
-    for (int i = 0; i < (*chemicals).size(); i++) {
+    //(*chemicals).size()
+    //chemicals->size()
+
+    cout << sizeof(chemicals) << endl;
+    cout << sizeof(chemicals[0]) << endl;
+
+    int size = sizeof(chemicals) / sizeof(chemicals[0]);
+
+    //for loop
+    for (int i = 0; i < chemicals->size(); i++) {
 
         cout << &chemicals[i] << endl;
+    }
+
+    //for each loop
+    for (string chemical : chemicals)
+    {
+        cout << chemical << endl;
     }
 
     cout << "-----------------------------------------------" << endl;
